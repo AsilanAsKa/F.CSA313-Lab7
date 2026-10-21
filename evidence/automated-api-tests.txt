@@ -1,5 +1,5 @@
 Exploratory Testing - API Checks
-Run time: 2026-10-21 16:41:57 +0800
+Run time: 2026-10-21 20:53:55 +0800
 
 === TEST 1: GET /api/books ===
 [{"id":1,"title":"Тунгалаг Тамир","author":"Ч.Лодойдамба","year":1971},{"id":2,"title":"Clean Code","author":"Robert C. Martin","year":2008},{"id":3,"title":"The Pragmatic Programmer","author":"D.Thomas & A.Hunt","year":1999}]
@@ -15,7 +15,7 @@ Listed=3, stats total=4
 === TEST 3: Malformed JSON ===
 HTTP/1.1 200 OK
 Content-Type: application/json
-Date: Wed, 21 Oct 2026 08:41:57 GMT
+Date: Wed, 21 Oct 2026 12:53:55 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 Transfer-Encoding: chunked

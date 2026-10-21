@@ -2,3 +2,7 @@ node_modules/
 .DS_Store
 .idea/
 .env
+
+# Local application files
+app.js
+app.rar
