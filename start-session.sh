@@ -15,3 +15,4 @@ cat > evidence/session-time.txt <<EOT
 Үргэлжлэх хугацаа: $(((END-START)/60)) минут
 EOT
 cat evidence/session-time.txt
+
