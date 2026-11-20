@@ -1,0 +1,20 @@
+BUG-06: Year boundary validation test
+Fri 20 Nov 2026 11:51:26 PM +08
+
+HTTP/1.1 201 Created
+Content-Type: application/json
+Date: Fri, 20 Nov 2026 15:51:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"result":"OK","id":7}
+===== VERIFY BOOKS =====
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Fri, 20 Nov 2026 15:51:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+[{"id":1,"title":"Тунгалаг Тамир","author":"Ч.Лодойдамба","year":1971},{"id":2,"title":"Clean Code","author":"Robert C. Martin","year":2008},{"id":3,"title":"The Pragmatic Programmer","author":"D.Thomas & A.Hunt","year":1999},{"id":4,"title":"","author":"Test Author","year":"2020"},{"id":5,"title":"","author":"Test Author","year":"2020"},{"id":6,"title":"Year Test 999","author":"Test Author","year":"999"},{"id":7,"title":"Year Test 999","author":"Test Author","year":"999"}]

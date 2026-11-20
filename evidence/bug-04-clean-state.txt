@@ -1,0 +1,21 @@
+BUG-04: Clean-state API verification
+Fri 20 Nov 2026 11:48:32 PM +08
+
+===== GET /api/books =====
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Fri, 20 Nov 2026 15:48:32 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+[{"id":1,"title":"Тунгалаг Тамир","author":"Ч.Лодойдамба","year":1971},{"id":2,"title":"Clean Code","author":"Robert C. Martin","year":2008},{"id":3,"title":"The Pragmatic Programmer","author":"D.Thomas & A.Hunt","year":1999}]
+===== GET /api/stats =====
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Fri, 20 Nov 2026 15:48:32 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"total":4,"newest":2008}

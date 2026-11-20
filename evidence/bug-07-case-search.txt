@@ -1,0 +1,21 @@
+BUG-07: Case-sensitive search test
+Fri 20 Nov 2026 11:53:18 PM +08
+
+===== lowercase: clean code =====
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Fri, 20 Nov 2026 15:53:18 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+[]
+===== uppercase: Clean Code =====
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Fri, 20 Nov 2026 15:53:18 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+[{"id":2,"title":"Clean Code","author":"Robert C. Martin","year":2008}]

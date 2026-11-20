@@ -1,7 +1,9 @@
 === GET /api/books ===
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   250    0   250    0     0   111k      0 --:--:-- --:--:-- --:--:--  122k
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   250    0   250    0     0   111k      0 --:--:-- --:--:-- --:--:--  122k
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 Date: Tue, 20 Oct 2026 10:52:09 GMT
@@ -13,7 +15,9 @@ Transfer-Encoding: chunked
 === GET /api/stats ===
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    25    0    25    0     0   9491      0 --:--:-- --:--:-- --:--:-- 12500
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    25    0    25    0     0   9491      0 --:--:-- --:--:-- --:--:-- 12500
 HTTP/1.1 200 OK
 Content-Type: application/json
 Date: Tue, 20 Oct 2026 10:52:09 GMT
